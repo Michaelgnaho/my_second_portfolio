@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import logo from "../assets/img/logo.svg";
+import logo from "../assets/img/logo-grayscale-inverted.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
@@ -38,7 +38,7 @@ function NavBar() {
       <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="#home">
-            <img src={logo} alt="logo"></img>
+            <img src={logo} alt="logo" className="rounded-lg w-12 h-10"></img>
           </Navbar.Brand>
           <Navbar.Toggle className="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
